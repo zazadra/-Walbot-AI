@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { memwalRecall, memwalRemember } from '@/lib/memwal/client';
+import { BOT_CONFIG } from '@/lib/bot-config';
 
 export const runtime = 'nodejs';
 export const maxDuration = 30;
