@@ -12,8 +12,8 @@ A Web3-native AI Chatbot designed to provide an intelligent, persistent conversa
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/zazadra/-Walbot-AI.git
-cd -Walbot-AI
+git clone https://github.com/zazadra/Walbot-AI.git
+cd Walbot-AI
 ```
 
 ### 2. Install dependencies
