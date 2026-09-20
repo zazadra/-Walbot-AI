@@ -24,10 +24,15 @@ npm install
 ### 3. Configure Environment Variables
 Copy `.env.local.example` (or create `.env.local`) and configure your API keys:
 ```env
+# Essential Setup
 GEMINI_API_KEY=your_gemini_api_key
-MEMWAL_API_KEY=your_memwal_api_key
 
-# Optional:
+# MemWal Setup (Walrus Memory)
+MEMWAL_PRIVATE_KEY=your_delegate_private_key
+MEMWAL_ACCOUNT_ID=0x_your_memwal_account_id
+MEMWAL_SERVER_URL=https://relayer.memory.walrus.xyz
+
+# Optional Alternate AI Providers
 OPENROUTER_API_KEY=your_openrouter_api_key
 GROQ_API_KEY=your_groq_api_key
 GROQ_MODEL=llama-3.1-8b-instant
